@@ -9,7 +9,7 @@ import { PDFContents } from './types';
 async function readFileAsDataURL(file: any) {
   let result_base64 = await new Promise((resolve) => {
       let fileReader = new FileReader();
-      fileReader.onload = (e) => resolve(fileReader.result);
+      fileReader.onload = (_e) => resolve(fileReader.result);
       fileReader.readAsDataURL(file);
   });
   // @ts-ignore
