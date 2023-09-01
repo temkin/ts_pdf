@@ -1,0 +1,32 @@
+iframe{
+  width: 50dvw;
+  height: 70dvh;
+}
+
+.file-list{
+  display: flex;
+  flex-direction: row;
+}
+.file-list > div {
+  margin: 5px 10px;
+}
+.preview-pdf{
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+.file-upload{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
